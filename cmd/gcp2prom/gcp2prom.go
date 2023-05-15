@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/Unity-Technologies/go-lager-internal"
-	"github.com/TyeMcQueen/go-tutl"
+	"github.com/Unity-Technologies/go-tutl-internal"
 	"github.com/Unity-Technologies/tools-gcp-internal/display"
 	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom"

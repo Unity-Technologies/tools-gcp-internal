@@ -12,7 +12,7 @@ import (
 	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/Unity-Technologies/go-lager-internal/buffer"
 	"github.com/Unity-Technologies/go-lager-internal/gcp-spans"
-	"github.com/TyeMcQueen/go-tutl"
+	"github.com/Unity-Technologies/go-tutl-internal"
 )
 
 func TestTrace(t *testing.T) {

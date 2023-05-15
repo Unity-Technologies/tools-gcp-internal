@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/Unity-Technologies/go-lager-internal"
-	"github.com/TyeMcQueen/go-tutl"
+	"github.com/Unity-Technologies/go-tutl-internal"
 	sd "google.golang.org/api/monitoring/v3"
 )
 
