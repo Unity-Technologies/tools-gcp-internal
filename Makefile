@@ -65,7 +65,7 @@ rebuild:
 push:
 	bin/build push gcp2prom
 
-MOD := github.com/TyeMcQueen/tools-gcp/
+MOD := github.com/Unity-Technologies/tools-gcp-internal/
 
 cover: go.mod */*.go results/project.txt
 	GCP_PROJECT_ID=`cat results/project.txt` \

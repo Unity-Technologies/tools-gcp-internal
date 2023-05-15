@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/TyeMcQueen/go-tutl"
-	"github.com/TyeMcQueen/tools-gcp/mon2prom/value"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom/value"
 	sd "google.golang.org/api/monitoring/v3" // "StackDriver"
 )
 

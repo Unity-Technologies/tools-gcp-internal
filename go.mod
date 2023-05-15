@@ -1,4 +1,4 @@
-module github.com/TyeMcQueen/tools-gcp
+module github.com/Unity-Technologies/tools-gcp-internal
 
 go 1.18
 

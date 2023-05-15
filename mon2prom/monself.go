@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/tools-gcp/mon"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
