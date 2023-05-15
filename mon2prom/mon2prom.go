@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/Unity-Technologies/tools-gcp-internal/conn"
 	"github.com/Unity-Technologies/tools-gcp-internal/display"
 	"github.com/Unity-Technologies/tools-gcp-internal/mon"

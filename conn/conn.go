@@ -14,7 +14,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 )

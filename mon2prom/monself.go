@@ -5,7 +5,7 @@ package mon2prom
 import (
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	"github.com/prometheus/client_golang/prometheus"
 )

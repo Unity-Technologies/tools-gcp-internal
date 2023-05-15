@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/go-lager/buffer"
-	"github.com/TyeMcQueen/go-lager/gcp-spans"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/go-lager-internal/buffer"
+	"github.com/Unity-Technologies/go-lager-internal/gcp-spans"
 	"github.com/TyeMcQueen/go-tutl"
 )
 

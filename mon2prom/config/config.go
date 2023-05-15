@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	sd "google.golang.org/api/monitoring/v3"
 	"gopkg.in/yaml.v2"

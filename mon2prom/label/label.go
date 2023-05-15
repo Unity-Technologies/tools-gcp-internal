@@ -9,7 +9,7 @@ import (
 	"sort"
 	"unicode/utf8"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/golang/protobuf/proto"
 	dto "github.com/prometheus/client_model/go"
 	"google.golang.org/api/monitoring/v3"

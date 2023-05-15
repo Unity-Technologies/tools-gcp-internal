@@ -77,7 +77,7 @@ which logs.
 If you aren't using GCP Cloud Logging, then you can remove the LAGER_GCP
 environment variable and probably add a LAGER_KEYS environment variable
 (with a value like "time,level,msg,data,,module") to better suit your log
-aggregator.  See https://github.com/TyeMcQueen/go-lager for details.
+aggregator.  See https://github.com/Unity-Technologies/go-lager-internal for details.
 
 ### Configuration Changes To Avoid
 

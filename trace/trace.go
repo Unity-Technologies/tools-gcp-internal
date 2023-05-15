@@ -3,8 +3,8 @@
 //
 // References to "ct2." refer to items imported from the
 // "google.golang.org/api/cloudtrace/v2" module.  References to "lager."
-// refer to items imported from "github.com/TyeMcQueen/go-lager".
-// "spans." refers to "github.com/TyeMcQueen/go-lager/gcp-spans".
+// refer to items imported from "github.com/Unity-Technologies/go-lager-internal".
+// "spans." refers to "github.com/Unity-Technologies/go-lager-internal/gcp-spans".
 //
 package trace
 
@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
-	spans "github.com/TyeMcQueen/go-lager/gcp-spans"
+	"github.com/Unity-Technologies/go-lager-internal"
+	spans "github.com/Unity-Technologies/go-lager-internal/gcp-spans"
 	"github.com/Unity-Technologies/tools-gcp-internal/conn"
 	"github.com/Unity-Technologies/tools-gcp-internal/metric"
 	ct2 "google.golang.org/api/cloudtrace/v2"

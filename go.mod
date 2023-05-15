@@ -3,7 +3,7 @@ module github.com/Unity-Technologies/tools-gcp-internal
 go 1.18
 
 require (
-	github.com/TyeMcQueen/go-lager v1.3.0
+	github.com/Unity-Technologies/go-lager-internal v1.3.0
 	github.com/TyeMcQueen/go-tutl v1.1.1
 	github.com/golang/protobuf v1.5.2
 	github.com/prometheus/client_golang v1.13.0
