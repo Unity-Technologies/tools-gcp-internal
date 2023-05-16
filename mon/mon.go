@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/tools-gcp/conn"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/tools-gcp-internal/conn"
 	"google.golang.org/api/monitoring/v3"
 )
 

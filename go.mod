@@ -1,10 +1,10 @@
-module github.com/TyeMcQueen/tools-gcp
+module github.com/Unity-Technologies/tools-gcp-internal
 
 go 1.18
 
 require (
-	github.com/TyeMcQueen/go-lager v1.3.0
-	github.com/TyeMcQueen/go-tutl v1.1.1
+	github.com/Unity-Technologies/go-lager-internal v1.4.0
+	github.com/Unity-Technologies/go-tutl-internal v1.2.0
 	github.com/golang/protobuf v1.5.2
 	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/client_model v0.2.0

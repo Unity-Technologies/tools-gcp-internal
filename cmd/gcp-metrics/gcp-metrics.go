@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/go-tutl"
-	"github.com/TyeMcQueen/tools-gcp/display"
-	"github.com/TyeMcQueen/tools-gcp/mon"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/go-tutl-internal"
+	"github.com/Unity-Technologies/tools-gcp-internal/display"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	"github.com/spf13/pflag"
 	"google.golang.org/api/monitoring/v3"
 )

@@ -10,13 +10,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/tools-gcp/conn"
-	"github.com/TyeMcQueen/tools-gcp/display"
-	"github.com/TyeMcQueen/tools-gcp/mon"
-	"github.com/TyeMcQueen/tools-gcp/mon2prom/config"
-	"github.com/TyeMcQueen/tools-gcp/mon2prom/label"
-	"github.com/TyeMcQueen/tools-gcp/mon2prom/value"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/tools-gcp-internal/conn"
+	"github.com/Unity-Technologies/tools-gcp-internal/display"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom/config"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom/label"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom/value"
 	prom "github.com/prometheus/client_golang/prometheus"
 	sd "google.golang.org/api/monitoring/v3" // "StackDriver"
 )
@@ -152,7 +152,7 @@ func (pv *PromVector) addTimeSeriesDetails(
 			pv.details.BucketType, pv.details.MonBuckets =
 				display.BucketInfo(val)
 		}
-		for k, _ := range ts.Resource.Labels {
+		for k := range ts.Resource.Labels {
 			resourceKeys[k] = true
 			if "project_id" == k {
 				hasProjectID = true
@@ -316,7 +316,7 @@ func combineBucketBoundaries(
 		minRatio = 1.0
 	}
 	o := 0
-	for i, _ := range subBuckets {
+	for i := range subBuckets {
 		if 0 < i {
 			bound = nextBound(bound)
 		}

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
+	"github.com/Unity-Technologies/go-lager-internal"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

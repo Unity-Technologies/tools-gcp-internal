@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/tools-gcp/mon"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon"
 	sd "google.golang.org/api/monitoring/v3"
 	"gopkg.in/yaml.v2"
 )
@@ -262,7 +262,7 @@ func longestFirst(strs []string) {
 func longestKeysFirst(m map[string]string) []string {
 	strs := make([]string, len(m))
 	o := 0
-	for k, _ := range m {
+	for k := range m {
 		strs[o] = k
 		o++
 	}
@@ -359,7 +359,7 @@ func (c Configuration) GcpPrefixes() []string {
 func uniqueKeyPrefixes(m map[string]string) []string {
 	prefixes := make([]string, len(m))
 	o := 0
-	for pref, _ := range m {
+	for pref := range m {
 		parts := strings.Split(pref, "/")
 		e := len(parts) - 1
 		dup := false

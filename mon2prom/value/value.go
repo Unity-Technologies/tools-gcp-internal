@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TyeMcQueen/go-lager"
-	"github.com/TyeMcQueen/tools-gcp/mon"
-	"github.com/TyeMcQueen/tools-gcp/mon2prom/label"
+	"github.com/Unity-Technologies/go-lager-internal"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon"
+	"github.com/Unity-Technologies/tools-gcp-internal/mon2prom/label"
 	"github.com/golang/protobuf/proto"
 	prom "github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"

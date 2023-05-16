@@ -5,7 +5,7 @@ package trace
 import (
 	"time"
 
-	"github.com/TyeMcQueen/tools-gcp/metric"
+	"github.com/Unity-Technologies/tools-gcp-internal/metric"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
