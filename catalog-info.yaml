@@ -1,0 +1,15 @@
+# For more information about the available options please visit: http://go/catalog-info (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/tools-gcp-internal
+    backstage.io/techdocs-ref: dir:.
+  name: tools-gcp-internal
+  description: "Tools for working with GCP.  Currently mostly GCP metrics.  Includes an exporter to Prometheus."
+  labels:
+    costcenter: "7151"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Unity-Technologies/unity-services-foundation
